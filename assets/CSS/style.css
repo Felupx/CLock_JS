@@ -14,7 +14,7 @@ body {
     justify-content: center;
 }
 
-.relogio {
+.clock {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -26,7 +26,7 @@ body {
 
 }
 
-.relogio div {
+.clock div {
     height: 170px;
     width: 150px;
     display: flex;
@@ -40,11 +40,11 @@ body {
     letter-spacing: 3px;
 }
 
-.relogio span {
+.clock span {
     font-weight: bolder;
     font-size: 60px;
 }
 
-.relogio span.tempo {
+.clock span.time {
     font-size: 10px;
 }
