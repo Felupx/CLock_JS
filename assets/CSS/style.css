@@ -1,50 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Kumbh Sans', sans-serif;
-}
 
 body {
-    height: 100vh;
-    background: linear-gradient(120deg, #4b086d, #acc0fe);
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    background: linear-gradient(120deg, #4ca9df, #292e91);
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
-.clock {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 200px;
-    width: 550px;
+.container {
     background: transparent;
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
     border-radius: 5px;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
-
 }
 
-.clock div {
+.container div {
     height: 170px;
-    width: 150px;
+    width: 180px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex: 1 1 150px;
     color: #fff;
     background: rgba(12, 3, 26, 0.9);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
     border-radius: 7px;
     letter-spacing: 3px;
+    margin: 3%;
 }
 
-.clock span {
+.container span {
     font-weight: bolder;
-    font-size: 60px;
+    font-size: 3em;
 }
 
-.clock span.time {
-    font-size: 10px;
+.container span.time {
+    font-size: 1em;
 }
